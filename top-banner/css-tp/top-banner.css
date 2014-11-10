@@ -1,0 +1,11 @@
+#top-banner{
+	height:40px;
+	background-color: #44B4FF;
+	min-width: 990px;
+}
+#top-banner a{
+	display:block;
+	height:40px;
+	width:990px;
+	margin:auto;
+}

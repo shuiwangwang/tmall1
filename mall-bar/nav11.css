@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+img{
+	border: 0 none;
+}
+@font-face{
+	font-family: "iconfont";
+	src:url('../mall-page/iconfont/iconfont.eot');
+	src: url('../mall-page/iconfont/iconfont.eot?#iefix') format('embedded-opentype'), 
+ 		 url('../mall-page/iconfont/iconfont.woff') format('woff'),
+ 		 url('../mall-page/iconfont/iconfont.ttf') format('truetype'),
+ 		 url('../mall-page/iconfont/iconfont.svg#iconfont') format('svg');
+}
+body{
+	background: #393939;
+}
+.icon{
+	font-family: 'iconfont';
+}
+
+#nav11_content{
+	background: #393939;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin-left: 15px;
+	width:220px;
+}
+#nav11_content .ques{
+	height:15px;
+	width:220px;
+	line-height: 15px;
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: 20px;
+}
+#nav11_content .ques a{
+	color:#fff;
+	text-decoration: none;
+}
+#nav11_content .shoucang li{
+	margin:3px 0;
+}
+#nav11_content .shoucang li a,#nav11_content .shoucang li a img{
+	display: block;
+}
+#nav11_content .qiacang{
+	color:#fff;
+	font-weight: bold;
+	margin:20px 0px 10px 0;
+}
+#nav11_content dl{
+	*zoom:1;
+	margin-top: 20px;
+}
+#nav11_content dl:after{
+	content: '.';
+	display:block;
+	height:0;
+	clear:both;
+	visibility: hidden;
+}
+#nav11_content dl .shoucang-list{
+	height:50px;
+	width:220px;
+	border-left:2px solid #ED3A57;
+	background: #494949;
+	position: relative;
+}
+#nav11_content dl .shoucang-list .icon-cang{
+	display: inline-block;
+	color:#fff;
+	font-size: 30px;
+	padding:8px 10px 0 20px;
+}
+#nav11_content dl .shoucang-list .cloth{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top:5px;
+	color:#fff;
+}
+#nav11_content dl .shoucang-list .cloth .clothing{
+	font-size: 10px;
+	font-weight: normal;
+}
+#nav11_content dl .shoucang-list .icon-barpull{
+	color:#fff;
+	font-size: 16px;
+	position: absolute;
+	top:20px;
+	right:20px;
+}
+#nav11_content dl dd{
+	height:34px;
+	width:98px;
+	line-height: 34px;
+	float:left;
+	margin:0 2px 2px 2px;
+	background: #2e2e2e;
+	text-align: center;
+}
+#nav11_content dl dd a{
+	color:#fff;
+	text-decoration: none;
+
+}
+#nav11_content dl.bar-fashion .shoucang-list{
+	border-left:2px solid #63C224;
+}
